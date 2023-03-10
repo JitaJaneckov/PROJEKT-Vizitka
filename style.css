@@ -2,15 +2,80 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/*
-BARVY:
-šedá na pozadí stránky:		 #b2bec3
-červená na hlavní nadpis:  #d63031
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    width: 60%;
+    margin: 150px auto;
+    background-color: #b2bec3;
+}
 
-tlačítko Twitter:					 #1da1f2
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+}
+
+.box {
+    text-align:justify;
+    width: 550px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px lightblue;
+    padding: 30px;
+    position: relative;
+}
+
+img {
+    width: 150px;
+    height:150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+}
+
+p {
+    margin: 30px 0;
+}
+
+.twitter {
+    color: white;
+    background-color:#1da1f2;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px; 
+    margin-bottom: 5px;  
+}
+
+.facebook {
+    color: white;
+    background-color:#3b5998;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+
+.twitter a:active{
+    color: #0b7bc1;
+}
+.facebook a:active {
+    color: #2b406e;
+}
+
+/*
+
 tlačítko Twitter aktivní:	 #0b7bc1
 
-tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
