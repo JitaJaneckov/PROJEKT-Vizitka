@@ -5,8 +5,7 @@ html { box-sizing: border-box; }
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    width: 60%;
-    margin: 150px auto;
+
     background-color: #b2bec3;
 }
 
@@ -14,6 +13,7 @@ h1 {
     font-size: 36px;
     font-weight: bold;
     color: #d63031;
+    margin-bottom: 30px;
 }
 
 .box {
@@ -22,8 +22,9 @@ h1 {
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 10px 10px lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 30px;
+    top: 150px;
     position: relative;
 }
 
@@ -37,11 +38,8 @@ img {
     top: -75px;
 }
 
-p {
-    margin: 30px 0;
-}
-
 .twitter {
+    margin-top: 30px;
     color: white;
     background-color:#1da1f2;
     border-radius: 5px;
@@ -62,7 +60,6 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
-
 }
 
 .twitter a:active{
