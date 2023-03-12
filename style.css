@@ -5,7 +5,6 @@ html { box-sizing: border-box; }
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-
     background-color: #b2bec3;
 }
 
@@ -38,7 +37,7 @@ img {
     top: -75px;
 }
 
-.twitter {
+a.twitter {
     margin-top: 30px;
     color: white;
     background-color:#1da1f2;
@@ -47,11 +46,12 @@ img {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
     padding: 10px; 
     margin-bottom: 5px;  
 }
 
-.facebook {
+a.facebook {
     color: white;
     background-color:#3b5998;
     display: block;
@@ -59,20 +59,24 @@ img {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
     padding: 10px;
 }
 
-.twitter a:active{
-    color: #0b7bc1;
-}
-.facebook a:active {
-    color: #2b406e;
+a.twitter:hover {
+    background-color: #94c8e8;  
 }
 
-/*
+a.twitter:active {
+    background-color: #0b7bc1;  
+}
 
-tlačítko Twitter aktivní:	 #0b7bc1
+a.facebook:hover {
+    background-color: #94c8e8;  
+}
 
-tlačítko Facebook aktivní: #2b406e
-*/
+a.facebook:active {
+    background-color: #2b406e;  
+}
+
 
